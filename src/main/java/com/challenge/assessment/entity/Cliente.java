@@ -15,6 +15,9 @@ public class Cliente {
     @Column(name= "id_cliente")
     private int id_cliente;
 
+    @Column(name= "cod_cliente")
+    private String cod_cliente;
+
     @Column(name= "tipo_documento")
     private String tipo_documento;
 
