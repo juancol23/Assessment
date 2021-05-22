@@ -25,6 +25,6 @@ public class Producto {
     private String tecnologia;
 
     @Column(name= "fecha_grabacion")
-    private Date fecha_grabacion;
+    private Date fecha_grabacion = new Date();
 
 }
